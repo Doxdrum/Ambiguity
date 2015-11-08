@@ -1,0 +1,98 @@
+\section{Introduction\label{sec:intro}}
+
+For a long time, it has been known that there is an ambiguity in
+defining the action of fields when the spacetime possesses torsion.
+The simplest example of this ambiguity is observed in the theory
+of electromagnetism, where the field strength, 
+\begin{equation*}
+  \free{F}_{\mu\nu} = \pa{\mu} A_\nu - \pa{\nu} A_\mu,
+\end{equation*}
+is not invariant under the minimal coupling \mbox{($\pa{\mu} \mapsto \nab{\mu}$),} since
+\begin{equation}
+  \free{F}_{\mu\nu} \mapsto {F}_{\mu\nu} = \free{F}_{\mu\nu} + \tors{\mu}{\lambda}{\nu} A_\lambda.
+  \label{fmunu-trans}
+\end{equation}
+The last term in Eq.~\eqref{fmunu-trans} spoils the $U (1)$ gauge
+invariance. This observation has driven to think that
+gauge fields do not couple to torsion in order to keep the
+$U (1)$ gauge invariance, see for example
+Ref.~\cite{Hehl:1976kj}.\footnote{Notice that although this has
+  been the main idea behind the ambiguity, one could ask torsion
+  to be a conserved quantity, just like in the case of the
+  electromagnetic current in the interaction $J^\mu A_\mu$.}
+
+It is intriguing that the gauge fields do possess spin but
+neither produce nor interact with the torsion. In order to
+address a minimal coupling prescription which maintains the
+$U (1)$ gauge invariance in presence of torsion, it was
+proposed in Ref.~\cite{PhysRevD.17.3141} a model
+where the torsion field is associated to an scalar potential
+called \emph{tlaplon}, which transforms in such a way under
+the $U (1)$ gauge group, that compensates the ill-defined
+transformation in the Eq.~\eqref{fmunu-trans}. Furthermore,
+in Ref.~\cite{Mukku:1978mz},
+the procedure was generalized to include $SU (N )$ gauge
+fields, allowing the minimal coupling of Yang-Mills theory
+to torsionful gravity, following the same spirit as in
+Ref.~\cite{PhysRevD.17.3141}.
+
+However, it has been argued that within the Palatini
+first order formalism written in differential forms, the
+introduction of such a \emph{tlaplon} field seems to be
+unnecessary, since the gauge and diffeomorphism invariance are
+naturally guaranteed without its help, see Ref.~\cite{Benn:1980ea}.
+This relies on the fact that gauge connections are indeed
+1-forms and singlets under the local Lorentz group.
+
+Both previously mentioned approaches for the inclusion
+of gauge fields in torsionful gravity, leads to physically
+different theories. The interaction between gauge
+fields and torsion is still an open subject of research.
+
+\section{Einstein--Cartan theory\label{sec:EC}}
+
+The Einstein--Cartan (EC) theory of gravitation is
+a natural generalization of General Relativity,
+where the gravitational sector is described by the
+Einstein--Hilbert action, but its built with a
+connection which possesses an antisymmetric part,
+i.e., it has torsion (which is absent in Genaral
+Relativity).
+
+Cartan developed the natural framework to deal with
+torsionful gravitational theories, known nowadays as
+the first order formalism, where the vierbein (a field
+which encodes the information contented in the metric) and
+the (Lorentz) connection are considered as independent
+fields~\cite{Cartan1922,Cartan1923,Cartan1924,Cartan1925}.
+
+The vierbein field, $\vi{a}{\mu}$, is defined through
+its relation with the metric fields, say
+\begin{equation}
+  g_{\mu\nu} = \eta_{a b} \, \vi{a}{\mu} \vi{b}{\nu},
+\end{equation}
+where $\eta$ is the Minkowski metric with signature
+\mbox{$\eta_{a b} = \diag(-,+,+,+)$,} greek and latin indices
+denote spacetime and Lorentz indices respectively.
+
+On the other hand, the Lorentz connection $\spi{\mu}{a}{b}$,
+is introduced in order to define the covariant differentiation
+under the local Lorentz group.
+
+With these fields one defines the corresponding vielbein
+and Lorentz connection one-forms, \mbox{$\vif{a} = \vi{a}{\mu}
+  \, \de{x}^\mu$} and \mbox{$\spif{a}{b} = \spi{\mu}{a}{b}
+  \, \de{x}^\mu$} respectively. The structure equations
+are expressed in terms of these fields, and define the
+torsion and curvature two-forms
+\begin{align}
+  \df \vif{a} + \spif{a}{b} \vif{b} &= \tf{a} = \frac{1}{2} \tors{m}{a}{n} \, \vif{m} \vif{n},
+  \label{strI} \\
+  \df \spif{ab}{} + \spif{a}{c} \spif{c b}{} &= \rif{a b}{} = \frac{1}{2} \ri{m n}{a b}{} \, \vif{m} \vif{n}.
+  \label{strII}
+\end{align}
+
+
+%%%%%%%%% Conclusions %%%%%%%%%
+\section{Conclusions\label{conclusions}}
+
